@@ -1,0 +1,23 @@
+{
+  "name": "cours-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startCors": "http-server --cors -o index.html -a localhost -p 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gotox29/cours-node.git"
+  },
+  "author": "Anthony NIZAC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gotox29/cours-node/issues"
+  },
+  "homepage": "https://github.com/Gotox29/cours-node#readme",
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
+}
